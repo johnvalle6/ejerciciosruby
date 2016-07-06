@@ -6,8 +6,9 @@
 #name = gets.chomp
 #puts " hola " + name + " " + "Cómo estas"
 
-
+puts "ingrese su nombre: "
 name  =  gets.chomp
+puts "ingrese su edad: "
 z = gets.chomp
 x = 2016 - z.to_i #to_i se utiliza para pasar la z a variable numerica
 
